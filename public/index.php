@@ -9,16 +9,4 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-// [ 应用入口文件 ]
-namespace think;
-
-require __DIR__ . '/../vendor/autoload.php';
-
-// 执行HTTP应用并响应
-$http = (new App())->http;
-
-$response = $http->run();
-
-$response->send();
-
-$http->end($response);
+echo '山野闲云';
